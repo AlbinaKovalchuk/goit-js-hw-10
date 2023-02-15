@@ -18,3 +18,15 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+p {
+ font-size: medium; 
+ font: inherit;
+}
+
+.country_item, .country-info_item  {
+ list-style: none;
+ display: flex;
+ align-items: baseline;
+ gap: 10px;
+}
